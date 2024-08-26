@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Samsara tienda de ropa" />
+    <meta name="keywords" content="samsara, ropa, mujer, importado" />
+    <meta name="author" content="Gonzalo A. Dougan" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/estructura.css" />
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link  rel="stylesheet" href="https://fontawesome.com/icons/bars?f=classic&s=solid"/>
+     -->
+    <title>Samsara</title>
+  </head>
+
+  <body class="body-index">
+    <header class="header-camperas">
+      <img class="logo-camperas" src="/IMG/Logo/logo.png" alt="Logo-principal" />
+      <button class="navbar-toggler" id="menuToggle">
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+    <nav id="sideMenu" class="side-menu">
+      <label for="menu-toggle" class="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+        <input id="menu-toggle" type="checkbox" />
+      <!-- <button class="close-btn" id="closeMenu">&times;</button> -->
+      <a href="/index.html">Home</a>
+      <a href="/html/Camperas.html">Camperas</a>
+      <a href="/html/Parka.html">Parka</a>
+      <a href="/html/chalecos.html">Chalecos</a>
+      <a href="/html/Accesorios.html">Accesorios</a>
+    </nav>
+
+    <!-- carrito -->
+
+    <div class="cart-label">
+      <i class="fa-solid fa-cart-shopping cart-icon">
+        <div class="cart-bubble">0</div>
+      </i>
+    </div>
+
+    <div class="cart">
+      <h2>Tu Tienda</h2>
+
+      <div class="cart-container">
+        <!-- <div class="cart-item">
+          <img src="./assets/img/cart/cart-img.png" alt="Nft del carrito" />
+          <div class="item-info">
+            <h3 class="item-title">Messi</h3>
+            <p class="item-bid">Current bid</p>
+            <span class="item-price">4.8 ETH</span>
+          </div>
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+          </div>
+        </div> -->
+      </div>
+
+      <span class="divider"></span>
+
+      <div class="cart-total">
+        <p>Total:</p>
+        <span class="total"></span>
+      </div>
+      <button class="btn-buy">Comprar</button>
+      <button class="btn-delete">Vaciar carrito</button>
+    </div>
+
+    <div class="overlay"></div>
+  </nav>
+
+    </header>
+
+
+    <main class="main-index">
+        <section class="section-product">
+          <div class="categories">
+            <button class="category btnall"  data-category="all">Todo</button>
+
+            <button class="category" data-category="Accesorios">Accesorios</button>
+            <button class="category" data-category="Camperas">
+             Camperas
+            </button>
+            <button class="category" data-category="Chalecos">Chalecos</button>
+            <button class="category" data-category="conjunto">
+              Conjuntos
+            </button>
+            <button class="category" data-category="Parkas">Parkas</button>
+            
+            
+           
+          </div>
+      <div class="conteiner-products">
+      
+      </div>
+      <button class="btn-more">ver mas</button>
+   </section>
+     </main>
+
+    <footer>
+      <p>© 2024 Todos los derechos reservados.</p>
+      <a href="https://wa.me/542664648793?text=Quisiera%20consultar%20sobre%20precios.">
+        <img src="/IMG/Logo/logo-wp.png" alt=""
+      /></a>
+      <a href="https://www.instagram.com/samsara.tienda.sl/">
+        <img class="logo-insta" src="/IMG/Logo/Instagram-Logo.png" alt=""
+      /></a>
+    </footer>
+    <div class="add-modal"></div>
+
+    <script src="JS/data.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
